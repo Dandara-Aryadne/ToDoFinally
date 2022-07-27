@@ -48,7 +48,9 @@ export default class ToDo extends Component {
           />
         </div>
         <div class="btn1">
-          <button onClick={add}>ADD</button>
+          <button class="btnOne" onClick={add}>
+            ADD
+          </button>
         </div>
         <div class="first">
           {taskList.map((item) => (
@@ -58,7 +60,7 @@ export default class ToDo extends Component {
                 class="trash"
                 onClick={() => remove(item.id)}
                 alt="trashpoint"
-                src="https://cdn0.iconfinder.com/data/icons/social-messaging-ui-color-shapes/128/trash-circle-red-512.png"
+                src="https://cdn-icons-png.flaticon.com/512/2891/2891491.png"
               />
             </ul>
           ))}
